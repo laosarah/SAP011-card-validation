@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Validar Cartão</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="infos">
+      <h1>Validação do Cartão</h1>
+      <p>Agora falta pouco..
+        para finalizar seu pedido, preencha os campos.
+        <br>
+        Obrigada por escolher nossa empresa.</p>
+    </div>
+    <form id="form">
+      <div class="input">
+        <label for="meuInput">Insira aqui o número do cartão</label><br>
+        <input type="text" id="meuInput" maxlength="16">
+        <button id="meuBotao">Exibir Código</button>
+        <div id="resultado">O resultado da validação aparecerá aqui.</div>
+      </div>
+    </form>
+  </main>
+  <footer>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
