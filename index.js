@@ -4,9 +4,9 @@ console.log("carregou arquivo")
 const numInput = document.getElementById("meuInput"); //variavel numImput pega o elemento input 
 const botao = document.getElementById("meuBotao"); //variavel botao pega o elemento botão
 
-botao.addEventListener("click", function (event) { 
+botao.addEventListener("click", function (event) {
   event.preventDefault(); //
-  console.log("cliclou botao") 
+  console.log("cliclou botao")
   console.log("digite o numero do cartão")
   if (numInput.value === "") { //se minha variavel numInput tiver o valor identico a vazio retorne a mensagem  
     return document.getElementById("resultado").innerHTML = "Digite o número do cartão."; //mensagem.
@@ -18,8 +18,8 @@ botao.addEventListener("click", function (event) {
   console.log("só aceitar 16 caracteres")
   if (isNaN(numInput.value)) {
     return document.getElementById("resultado").innerHTML = "Caracteres invalidos, usar apenas números."
-  } 
-  console.log("pegou o número")  
+  }
+  console.log("pegou o número")
   if (validator.isValid(valor)) { // se a função isValid do objeto validator for verdadeiro execute bloco de código  
     const maskedNumbers = validator.maskify(valor); //chama a função maskify do objeto validator e armazena o resultado na const maskedNumber
     return document.getElementById("resultado").innerHTML = maskedNumbers + " é um cartão válido."; //se o valor que passou na função isValid for valido retorne a mensagem : variavel maskedNumber concatenado com string 

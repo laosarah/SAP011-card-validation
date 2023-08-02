@@ -4,31 +4,33 @@
 <head>
   <meta charset="utf-8">
   <title>Validar Cartão</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
-    <p>SHOP INFO</p>
   </header>
-  <main>
+  <main class="container">
     <div class="infos">
       <h1>Validação do Cartão</h1>
       <p>Agora falta pouco..
-        para finalizar seu pedido, preencha os campos.
+        para finalizar seu pedido,
+        <br>preencha os campos.
         <br>
-        Obrigada por escolher nossa empresa.</p>
-    <form id="form">
-      <div class="input">
-        <label for="meuInput">Insira aqui o número do cartão.</label><br>
-        <input type="text" id="meuInput" maxlength="16" placeholder="0000 0000 0000 0000">
-        <button id="meuBotao">Exibir Código</button>
-        <div id="resultado">O resultado da validação aparecerá aqui.</div>
-      </div>
-    </form>
-    </div>    
+        Obrigada por escolher nossa empresa.
+      </p>
+      <form id="form">
+        <div class="validacao">
+          <label for="meuInput">Insira aqui o número do cartão.</label><br>
+          <input type="text" id="meuInput" maxlength="16" placeholder="0000 0000 0000 0000">
+          <button id="meuBotao">Validar</button>
+          <div id="resultado">O resultado da validação aparecerá aqui.</div>
+        </div>
+      </form>
+    </div>
   </main>
   <footer>
+    v2.0
   </footer>
   <script src="index.js" type="module"></script>
 </body>

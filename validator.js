@@ -17,8 +17,8 @@ const validator = { // objeto validator
     }
 
     return total % 10 === 0; //retorna a sobra de total divido por 10 identico a 0 
-  }, 
-  
+  },
+
   maskify(valor) { //função de mascarar parte do numero do input
     const nmrMascara = []; // variavel nmrMascara inicia com a array vazia  
     for (let i = 0; i < valor.length; i++) { // loop array igual linha 7 
@@ -33,5 +33,5 @@ const validator = { // objeto validator
     return mascara; // retorna a string resultante que deve ser #### #### #### e 4 ultimos digitos aparentes. 
   }
 };
-  
-export default validator; //exportando resultado para index.js
+
+export default validator; //exportando resultado para index.js 
