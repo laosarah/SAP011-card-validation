@@ -9,7 +9,6 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidade e Demonstração da Aplicação](#funcionalidade-e-demonstração-da-aplicação)
-* [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas) 
 * [Objetivos de Aprendizagem](#objetivos-de-aprendizagem)
 * [Desenvolvedora do Projeto](#desenvolvedora)
@@ -25,10 +24,6 @@ Finalizado.
 Página modelo para a validação do cartão de crédito. Basta o usuário inserir o número do cartão e clicar em validar. 
 
 ![Isso é um gif.](/src/img/captura-tela-02.gif "Isso é um gif.")
-
-## Acesso 
-Link projeto [Card Validation - Página Exemplo](https://laosarah.github.io/SAP011-card-validation/). 
-
 
 ## Tecnologias Utilizadas 
 HTML, CSS, JavaScript, Jest e ESLint. 
